@@ -1,0 +1,15 @@
+C:\Users\Mattys\RiderProjects\RecetteMaster\RecetteMaster\RecetteMaster\obj\Debug\netstandard2.0\RecetteMaster.csprojAssemblyReference.cache
+C:\Users\Mattys\RiderProjects\RecetteMaster\RecetteMaster\RecetteMaster\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Mattys\RiderProjects\RecetteMaster\RecetteMaster\RecetteMaster\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Mattys\RiderProjects\RecetteMaster\RecetteMaster\RecetteMaster\obj\Debug\netstandard2.0\Views\RecetteEntryPage.xaml.g.cs
+C:\Users\Mattys\RiderProjects\RecetteMaster\RecetteMaster\RecetteMaster\obj\Debug\netstandard2.0\Views\RecettesPage.xaml.g.cs
+C:\Users\Mattys\RiderProjects\RecetteMaster\RecetteMaster\RecetteMaster\obj\Debug\netstandard2.0\RecetteMaster.AssemblyInfoInputs.cache
+C:\Users\Mattys\RiderProjects\RecetteMaster\RecetteMaster\RecetteMaster\obj\Debug\netstandard2.0\RecetteMaster.AssemblyInfo.cs
+C:\Users\Mattys\RiderProjects\RecetteMaster\RecetteMaster\RecetteMaster\obj\Debug\netstandard2.0\RecetteMaster.csproj.CoreCompileInputs.cache
+C:\Users\Mattys\RiderProjects\RecetteMaster\RecetteMaster\RecetteMaster\bin\Debug\netstandard2.0\RecetteMaster.deps.json
+C:\Users\Mattys\RiderProjects\RecetteMaster\RecetteMaster\RecetteMaster\bin\Debug\netstandard2.0\RecetteMaster.dll
+C:\Users\Mattys\RiderProjects\RecetteMaster\RecetteMaster\RecetteMaster\bin\Debug\netstandard2.0\RecetteMaster.pdb
+C:\Users\Mattys\RiderProjects\RecetteMaster\RecetteMaster\RecetteMaster\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Mattys\RiderProjects\RecetteMaster\RecetteMaster\RecetteMaster\obj\Debug\netstandard2.0\RecetteMaster.dll
+C:\Users\Mattys\RiderProjects\RecetteMaster\RecetteMaster\RecetteMaster\obj\Debug\netstandard2.0\RecetteMaster.pdb
+C:\Users\Mattys\RiderProjects\RecetteMaster\RecetteMaster\RecetteMaster\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs

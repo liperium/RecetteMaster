@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:views="clr-namespace:RecetteMaster.Views"
+       x:Class="RecetteMaster.AppShell">
+    <!-- Display a bottom tab bar containing two tabs -->   
+    <TabBar>
+        <ShellContent Title="Home"
+                      Icon="icon_feed.png"
+                      ContentTemplate="{DataTemplate views:MainPage}" />
+        <ShellContent Title="Recettes"
+                      Icon="icon_feed.png"
+                      ContentTemplate="{DataTemplate views:RecettesPage}" />
+        <ShellContent Title="Aliments"
+                      Icon="icon_feed.png"
+                      ContentTemplate="{DataTemplate views:MainPage}" />
+    </TabBar>
+</Shell>

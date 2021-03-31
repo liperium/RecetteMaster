@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "XXMMqzdRZACM0l7rTubonp7vmK24XStvUpXqiuMDOwqibgKDeMJiA7QOVelTEUIDLenOFIjtUnxfq3INsryY0A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mattys\\RiderProjects\\RecetteMaster\\RecetteMaster\\RecetteMaster.iOS\\RecetteMaster.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mattys\\.nuget\\packages\\sqlite-net-pcl\\1.8.0-beta\\sqlite-net-pcl.1.8.0-beta.nupkg.sha512",
+    "C:\\Users\\Mattys\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
+    "C:\\Users\\Mattys\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
+    "C:\\Users\\Mattys\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.4\\sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512",
+    "C:\\Users\\Mattys\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\Mattys\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
+    "C:\\Users\\Mattys\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Mattys\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Mattys\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\Mattys\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\Mattys\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

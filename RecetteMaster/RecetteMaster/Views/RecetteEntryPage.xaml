@@ -5,9 +5,11 @@
              Title="Recette Entry">
     <!-- Layout children vertically -->
     <StackLayout Margin="20">
-        <Editor Placeholder="Enter your recipe name"
+        <Entry Placeholder="Enter your recipe name"
                 Text="{Binding Nom}"
-                HeightRequest="50" />
+                HeightRequest="50" 
+                MaxLength="20"
+                ReturnType="Next"/>
         <!-- Layout children in two columns -->
         <Grid ColumnDefinitions="*,*">
             <Button Text="Save"

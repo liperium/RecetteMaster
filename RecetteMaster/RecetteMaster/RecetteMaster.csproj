@@ -15,4 +15,13 @@
         <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
         <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
     </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Views\AlimentsPage.cs">
+        <DependentUpon>AlimentsPage.cs.xaml</DependentUpon>
+      </Compile>
+      <Compile Update="Views\AlimentEntryPage.cs">
+        <DependentUpon>AlimentEntryPage.xaml</DependentUpon>
+      </Compile>
+    </ItemGroup>
 </Project>

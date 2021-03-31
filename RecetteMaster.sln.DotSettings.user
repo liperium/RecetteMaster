@@ -2,4 +2,5 @@
 	
 	<s:String x:Key="/Default/Environment/Hierarchy/Build/BuildTool/CustomBuildToolPath/@EntryValue">C:\Users\Mattys\AppData\Local\JetBrains\BuildTools\MSBuild\Current\Bin\MSBuild.exe</s:String>
 	<s:Int64 x:Key="/Default/Environment/Hierarchy/Build/BuildTool/MsbuildVersion/@EntryValue">1048576</s:Int64>
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=fd1153bd_002D7434_002D46bd_002Db63f_002D775a388e8052_0023UwpApplication/@EntryIndexedValue">True</s:Boolean>
 	</wpf:ResourceDictionary>

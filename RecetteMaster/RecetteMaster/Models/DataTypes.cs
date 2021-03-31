@@ -12,12 +12,12 @@ namespace RecetteMaster.Models
         public string Nom { get; set; }
         
         public DateTime Date { get; set; }
-        /*
+        
         public string Preparation { get; set; }
         [Indexed]
-        public int AlimentsId { get; set; }*/
+        public int AlimentsId { get; set; }
     }
-/*
+
     public class AlimentPossible
     {
         [PrimaryKey,AutoIncrement]
@@ -33,5 +33,5 @@ namespace RecetteMaster.Models
         [Indexed]
         public int AlimentId { get; set; }
         public string Quantite { get; set; }
-    }*/
+    }
 }

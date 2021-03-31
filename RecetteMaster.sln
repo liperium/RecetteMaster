@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecetteMaster.Android", "Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecetteMaster.iOS", "RecetteMaster\RecetteMaster.iOS\RecetteMaster.iOS.csproj", "{9DF8C7AC-1EE8-4761-B7D9-EC8284EF8745}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UwpApplication", "UwpApplication\UwpApplication.csproj", "{FD1153BD-7434-46BD-B63F-775A388E8052}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|iPhone = Ad-Hoc|iPhone
@@ -82,5 +84,21 @@ Global
 		{9DF8C7AC-1EE8-4761-B7D9-EC8284EF8745}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{9DF8C7AC-1EE8-4761-B7D9-EC8284EF8745}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{9DF8C7AC-1EE8-4761-B7D9-EC8284EF8745}.Release|iPhoneSimulator.Deploy.0 = Release|iPhoneSimulator
+		{FD1153BD-7434-46BD-B63F-775A388E8052}.Ad-Hoc|iPhone.ActiveCfg = Debug|x86
+		{FD1153BD-7434-46BD-B63F-775A388E8052}.Ad-Hoc|iPhone.Build.0 = Debug|x86
+		{FD1153BD-7434-46BD-B63F-775A388E8052}.AppStore|iPhone.ActiveCfg = Debug|x86
+		{FD1153BD-7434-46BD-B63F-775A388E8052}.AppStore|iPhone.Build.0 = Debug|x86
+		{FD1153BD-7434-46BD-B63F-775A388E8052}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{FD1153BD-7434-46BD-B63F-775A388E8052}.Debug|Any CPU.Build.0 = Debug|x86
+		{FD1153BD-7434-46BD-B63F-775A388E8052}.Debug|iPhone.ActiveCfg = Debug|x86
+		{FD1153BD-7434-46BD-B63F-775A388E8052}.Debug|iPhone.Build.0 = Debug|x86
+		{FD1153BD-7434-46BD-B63F-775A388E8052}.Debug|iPhoneSimulator.ActiveCfg = Debug|x86
+		{FD1153BD-7434-46BD-B63F-775A388E8052}.Debug|iPhoneSimulator.Build.0 = Debug|x86
+		{FD1153BD-7434-46BD-B63F-775A388E8052}.Release|Any CPU.ActiveCfg = Release|x86
+		{FD1153BD-7434-46BD-B63F-775A388E8052}.Release|Any CPU.Build.0 = Release|x86
+		{FD1153BD-7434-46BD-B63F-775A388E8052}.Release|iPhone.ActiveCfg = Release|x86
+		{FD1153BD-7434-46BD-B63F-775A388E8052}.Release|iPhone.Build.0 = Release|x86
+		{FD1153BD-7434-46BD-B63F-775A388E8052}.Release|iPhoneSimulator.ActiveCfg = Release|x86
+		{FD1153BD-7434-46BD-B63F-775A388E8052}.Release|iPhoneSimulator.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal

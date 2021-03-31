@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XXMMqzdRZACM0l7rTubonp7vmK24XStvUpXqiuMDOwqibgKDeMJiA7QOVelTEUIDLenOFIjtUnxfq3INsryY0A==",
+  "dgSpecHash": "OK3rOxnXKUOh7WGaxX0Yl6Df5SjflSyi8Skd2pczuEC/RgR6YTX3yWyZeGd4j5KFe14hUfBluRWdtZw8yPJTgQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mattys\\RiderProjects\\RecetteMaster\\RecetteMaster\\RecetteMaster.iOS\\RecetteMaster.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Mattys\\.nuget\\packages\\microsoft.netcore.universalwindowsplatform\\6.2.12\\microsoft.netcore.universalwindowsplatform.6.2.12.nupkg.sha512",
     "C:\\Users\\Mattys\\.nuget\\packages\\sqlite-net-pcl\\1.8.0-beta\\sqlite-net-pcl.1.8.0-beta.nupkg.sha512",
     "C:\\Users\\Mattys\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
     "C:\\Users\\Mattys\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",

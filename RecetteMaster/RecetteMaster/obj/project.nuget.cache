@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "femjoeqLStP++QaNahFVS18fhE89tLJJe49/rTN8c6pjya7LnKgU8SWYNi8AYgJibNqGTGktF3Iq5bPu1Qd+HA==",
+  "dgSpecHash": "gwznFis5DqZMz5oWzmFd/6LkzK+LOEqNbuagP0QcPZTjq9f4U3TftTjTOlVqMGHylZfOLU8VVYD7/KIOa6QXow==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mattys\\RiderProjects\\RecetteMaster\\RecetteMaster\\RecetteMaster\\RecetteMaster.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mattys\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Mattys\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Mattys\\.nuget\\packages\\microsoft.netcore.universalwindowsplatform\\6.2.12\\microsoft.netcore.universalwindowsplatform.6.2.12.nupkg.sha512",
     "C:\\Users\\Mattys\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\Mattys\\.nuget\\packages\\sqlite-net-pcl\\1.8.0-beta\\sqlite-net-pcl.1.8.0-beta.nupkg.sha512",
     "C:\\Users\\Mattys\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",

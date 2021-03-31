@@ -20,22 +20,22 @@ namespace RecetteMaster.Views
 
             // Retrieve all the notes from the database, and set them as the
             // data source for the CollectionView.
-            collectionView.ItemsSource = await App.Database.GetRecettesAsync();
-        }
+            collectionView.ItemsSource = await App.Database.GetAlimentsPossibleAsync();}
 
         async void OnAddClicked(object sender, EventArgs e)
         {
             // Navigate to the NoteEntryPage, without passing any data.
-            await Shell.Current.GoToAsync(nameof(RecetteEntryPage));
+            await Shell.Current.GoToAsync(nameof(AlimentEntryPage));
         }
 
         async void OnSelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (e.CurrentSelection != null)
             {
-                Recette recette = (Recette)e.CurrentSelection.FirstOrDefault();
-                await Shell.Current.GoToAsync($"{nameof(RecetteEntryPage)}?{nameof(RecetteEntryPage.ItemId)}={recette.Id.ToString()}");
+                AlimentPossible alimentPossible = (AlimentPossible)e.CurrentSelection.FirstOrDefault();
+                await Shell.Current.GoToAsync($"{nameof(AlimentEntryPage)}?{nameof(AlimentEntryPage.ItemId)}={alimentPossible.Id.ToString()}");
             }
         }
     }
+
 }

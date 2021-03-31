@@ -17,7 +17,7 @@ namespace RecetteMaster
         {
             InitializeComponent();
             Routing.RegisterRoute(nameof(RecetteEntryPage), typeof(RecetteEntryPage));
-            
+            Routing.RegisterRoute(nameof(AlimentEntryPage2), typeof(AlimentEntryPage2));
         }
     }
 }

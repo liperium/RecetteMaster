@@ -7,17 +7,17 @@ using Xamarin.Forms;
 namespace RecetteMaster.Views
 {
     [QueryProperty(nameof(ItemId), nameof(ItemId))]
-    public partial class AlimentsEntryPage : ContentPage
+    public partial class AlimentEntryPage : ContentPage
     {
         public string ItemId
         {
             set
             {
-                LoadRecette(value);
+                LoadAlimentPossible(value);
             }
         }
 
-        public AlimentsEntryPage()
+        public AlimentEntryPage()
         {
             InitializeComponent();
 
@@ -25,14 +25,14 @@ namespace RecetteMaster.Views
             BindingContext = new Recette();
         }
 
-        async void LoadRecette(string itemId)
+        async void LoadAlimentPossible(string itemId)
         {
             try
             {
                 int id = Convert.ToInt32(itemId);
                 // Retrieve the note and set it as the BindingContext of the page.
-                Recette recette = await App.Database.GetRecetteAsync(id);
-                BindingContext = recette;
+                AlimentPossible alimentPossible = await App.Database.GetAlimentPossibleAsync(id);
+                BindingContext = alimentPossible;
             }
             catch (Exception)
             {
@@ -42,11 +42,11 @@ namespace RecetteMaster.Views
 
         async void OnSaveButtonClicked(object sender, EventArgs e)
         {
-            var recette = (Recette)BindingContext;
-            recette.Date = DateTime.UtcNow;
-            if (!string.IsNullOrWhiteSpace(recette.Nom))
+            var alimentPossible = (AlimentPossible)BindingContext;
+            //TODO INIT ICI
+            if (!string.IsNullOrWhiteSpace(alimentPossible.Nom))
             {
-                await App.Database.SaveRecetteAsync(recette);
+                await App.Database.SaveAlimentPossibleAsync(alimentPossible);
             }
 
             // Navigate backwards
@@ -55,8 +55,8 @@ namespace RecetteMaster.Views
 
         async void OnDeleteButtonClicked(object sender, EventArgs e)
         {
-            var recette = (Recette)BindingContext;
-            await App.Database.DeleteRecetteAsync(recette);
+            var alimentPossible = (AlimentPossible)BindingContext;
+            await App.Database.DeleteAlimentPossibleAsync(alimentPossible);
 
             // Navigate backwards
             await Shell.Current.GoToAsync("..");

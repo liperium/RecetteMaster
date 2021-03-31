@@ -26,7 +26,7 @@ namespace RecetteMaster.Models
         public string Nom { get; set; }
     }
 
-    public class Aliments
+    public class AlimentRecette
     {
         [Indexed]
         public int RecetteId{ get; set; }

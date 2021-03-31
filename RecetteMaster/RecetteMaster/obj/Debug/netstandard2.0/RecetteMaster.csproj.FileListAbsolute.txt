@@ -13,3 +13,5 @@ C:\Users\Mattys\RiderProjects\RecetteMaster\RecetteMaster\RecetteMaster\obj\Debu
 C:\Users\Mattys\RiderProjects\RecetteMaster\RecetteMaster\RecetteMaster\obj\Debug\netstandard2.0\RecetteMaster.dll
 C:\Users\Mattys\RiderProjects\RecetteMaster\RecetteMaster\RecetteMaster\obj\Debug\netstandard2.0\RecetteMaster.pdb
 C:\Users\Mattys\RiderProjects\RecetteMaster\RecetteMaster\RecetteMaster\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Mattys\RiderProjects\RecetteMaster\RecetteMaster\RecetteMaster\obj\Debug\netstandard2.0\Views\AlimentEntryPage2.xaml.g.cs
+C:\Users\Mattys\RiderProjects\RecetteMaster\RecetteMaster\RecetteMaster\obj\Debug\netstandard2.0\Views\AlimentsPage2.xaml.g.cs

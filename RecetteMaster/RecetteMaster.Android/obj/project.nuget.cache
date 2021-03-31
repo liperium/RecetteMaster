@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Q3zhDf6BZj5XS1drQTmGkrnwczEG5kkfGIzQ9eDRgNQwqhg1zrR823BFV37+sktLe3E5KFq0V99V+4v67PiuNQ==",
+  "dgSpecHash": "cb1FGvWxh3ecRgZo2CFtE+1aKKeQXwX3v1/GBBzRi1rjHkEFQMyBiV26QBmqz/+BYK2X1NAyOzsEFiXVJlr2kw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mattys\\RiderProjects\\RecetteMaster\\RecetteMaster\\RecetteMaster.Android\\RecetteMaster.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Mattys\\.nuget\\packages\\microsoft.netcore.universalwindowsplatform\\6.2.12\\microsoft.netcore.universalwindowsplatform.6.2.12.nupkg.sha512",
     "C:\\Users\\Mattys\\.nuget\\packages\\sqlite-net-pcl\\1.8.0-beta\\sqlite-net-pcl.1.8.0-beta.nupkg.sha512",
     "C:\\Users\\Mattys\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
     "C:\\Users\\Mattys\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",

@@ -9,6 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "RecetteMaster/1.0.0": {
         "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.12",
           "NETStandard.Library": "2.0.3",
           "System.Linq": "4.3.0",
           "Xamarin.Essentials": "1.6.1",
@@ -21,6 +22,7 @@
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.2.12": {},
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -255,6 +257,13 @@
       "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.UniversalWindowsPlatform/6.2.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-df3mwtb9FHbMNE9ddOqNQVdK5S2CQc/i+jWsYfiJxBkq0V+uVmRw/VicTeHRf+cQgEcSynnkOg7xgqQJSifb7w==",
+      "path": "microsoft.netcore.universalwindowsplatform/6.2.12",
+      "hashPath": "microsoft.netcore.universalwindowsplatform.6.2.12.nupkg.sha512"
     },
     "NETStandard.Library/2.0.3": {
       "type": "package",

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RecetteMaster.Views.AlimentEntryPage2"
+             Title="Aliment Entry"
+             xmlns:model="clr-namespace:RecetteMaster.Models"
+             x:DataType="model:AlimentPossible">
+    <!-- Layout children vertically -->
+    <StackLayout Margin="20">
+        <Entry Placeholder="Nom de laliment"
+               Text="{Binding Nom}"
+               HeightRequest="50"
+               FontSize="Title"
+               MaxLength="20"
+               ReturnType="Next" />
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Important"
+                   VerticalOptions="Center"
+                   FontSize="Medium"/>
+            <CheckBox HorizontalOptions="EndAndExpand" IsChecked="False"
+                      x:Name="checkBox"/>
+        </StackLayout>
+        <!-- Layout children in two columns -->
+        <Grid ColumnDefinitions="*,*">
+            <Button Text="Save"
+                    Clicked="OnSaveButtonClicked" />
+            <Button Grid.Column="1"
+                    Text="Delete"
+                    Clicked="OnDeleteButtonClicked" />
+        </Grid>
+    </StackLayout>
+</ContentPage>

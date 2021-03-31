@@ -4,7 +4,7 @@
        xmlns:views="clr-namespace:RecetteMaster.Views"
        x:Class="RecetteMaster.AppShell">
     <!-- Display a bottom tab bar containing two tabs -->   
-    <TabBar>
+    <TabBar >
         <ShellContent Title="Home"
                       Icon="icon_feed.png"
                       ContentTemplate="{DataTemplate views:MainPage}" />
@@ -13,6 +13,6 @@
                       ContentTemplate="{DataTemplate views:RecettesPage}" />
         <ShellContent Title="Aliments"
                       Icon="icon_feed.png"
-                      ContentTemplate="{DataTemplate views:MainPage}" />
+                      ContentTemplate="{DataTemplate views:AlimentsPage2}" />
     </TabBar>
 </Shell>

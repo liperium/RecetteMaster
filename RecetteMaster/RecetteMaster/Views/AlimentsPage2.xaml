@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RecetteMaster.Views.AlimentsPage2"
+             Title="Aliments"
+             xmlns:model="clr-namespace:RecetteMaster.Models">
+    <!-- Add an item to the toolbar -->
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add"
+                     Clicked="OnAddClicked" />
+    </ContentPage.ToolbarItems>
+
+    <!-- Display notes in a list -->
+    <CollectionView x:Name="collectionView"
+                    Margin="20"
+                    SelectionMode="Single"
+                    SelectionChanged="OnSelectionChanged"
+                    x:DataType="model:AlimentPossible">
+        <CollectionView.ItemsLayout>
+            <LinearItemsLayout Orientation="Vertical"
+                               ItemSpacing="10" />
+        </CollectionView.ItemsLayout>
+        <!-- Define the appearance of each item in the list -->
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <StackLayout BackgroundColor="WhiteSmoke" Orientation="Horizontal">
+                    <Label Text="{Binding Nom}"
+                           FontSize="Large" 
+                           Padding="5"
+                           TextColor="Black"/>
+                    <Label Text="Important "
+                           FontSize="Medium" 
+                           HorizontalOptions="EndAndExpand"
+                           VerticalOptions="Center"></Label>
+                    <CheckBox IsChecked="{Binding Important}"
+                              HorizontalOptions="End"
+                              IsEnabled="False"
+                              />
+                </StackLayout>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+</ContentPage>

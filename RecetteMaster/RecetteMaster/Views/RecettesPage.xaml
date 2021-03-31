@@ -25,7 +25,8 @@
             <DataTemplate>
                 <StackLayout>
                     <Label Text="{Binding Nom}"
-                           FontSize="Medium"/>
+                           FontSize="Title"
+                           TextColor="Black"/>
                     <Label Text="{Binding Date}"
                            TextColor="Silver"
                            FontSize="Small" />

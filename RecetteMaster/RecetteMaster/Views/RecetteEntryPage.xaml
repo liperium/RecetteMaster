@@ -2,21 +2,57 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="RecetteMaster.Views.RecetteEntryPage"
-             Title="Recette Entry">
+             Title="Recette Entry"
+             xmlns:model="clr-namespace:RecetteMaster.Models"
+             x:DataType="model:Recette">
     <!-- Layout children vertically -->
-    <StackLayout Margin="20">
-        <Entry Placeholder="Enter your recipe name"
-                Text="{Binding Nom}"
-                HeightRequest="50" 
-                MaxLength="20"
-                ReturnType="Next"/>
-        <!-- Layout children in two columns -->
-        <Grid ColumnDefinitions="*,*">
-            <Button Text="Save"
-                    Clicked="OnSaveButtonClicked" />
-            <Button Grid.Column="1"
-                    Text="Delete"
-                    Clicked="OnDeleteButtonClicked"/>
-        </Grid>
-    </StackLayout>
+    <ScrollView >
+        <StackLayout Margin="20">
+            <Entry Placeholder="Enter your recipe name"
+                   Text="{Binding Nom}"
+                   HeightRequest="50" 
+                   MaxLength="20"
+                   ReturnType="Next"/>
+            <CollectionView x:Name="collectionView"
+                            Margin="20"
+                            SelectionMode="Single"
+                            x:DataType="model:AlimentPossible"
+                            HeightRequest="300">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Vertical"
+                                       ItemSpacing="10" />
+                </CollectionView.ItemsLayout>
+                <!-- Define the appearance of each item in the list -->
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout BackgroundColor="WhiteSmoke" Orientation="Horizontal">
+                            <Label Text="{Binding Nom}"
+                                   FontSize="Large" 
+                                   Padding="5"
+                                   TextColor="Black"/>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            <Grid ColumnDefinitions="*,*" HeightRequest="60">
+                <Picker  x:Name="picker" x:DataType="model:AlimentPossible"
+                         ItemsSource="{Binding Nom}"
+                         ItemDisplayBinding="{Binding Nom}"
+                         HorizontalTextAlignment="Center">
+                         
+                         </Picker>
+                <Button Grid.Column="1"
+                        Text="Add"
+                        Clicked="OnAddButtonClicked"/>
+            </Grid>
+            <!-- Layout children in two columns -->
+            <Grid ColumnDefinitions="*,*" HeightRequest="60">
+                <Button Text="Save"
+                        Clicked="OnSaveButtonClicked" />
+                <Button Grid.Column="1"
+                        Text="Delete"
+                        Clicked="OnDeleteButtonClicked"/>
+            </Grid>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

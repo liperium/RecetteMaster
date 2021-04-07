@@ -1,0 +1,1 @@
+C:\Users\Mattys\RiderProjects\RecetteMaster\RecetteMaster.UWP\RecetteMaster.UWP.csproj;x86

@@ -45,7 +45,7 @@ namespace RecetteMaster.Views
         {
             var alimentPossible = (AlimentPossible)BindingContext;
             alimentPossible.Important = checkBox.IsChecked;
-            //TODO INIT ICI
+            //  TODO INIT ICI
             if (!string.IsNullOrWhiteSpace(alimentPossible.Nom))
             {
                 await App.Database.SaveAlimentPossibleAsync(alimentPossible);
